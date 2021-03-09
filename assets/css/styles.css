@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    background-image: url("../img/wallpaperflare.com_wallpaper.jpg"); /*https://images.wallpapersden.com/image/download/jujutsu-kaisen-4k_bGhlZmqUmZqaraWkpJRpZ2ZsrWdubGs.jpg*/
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif !important;
+}
+body::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+}
+.ClassyCountdown-value{
+    font-family: 'Roboto', sans-serif !important;
+}
